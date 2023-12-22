@@ -46,6 +46,29 @@ nav {
     width: 600px;
     height: 100%;
 }
+#links ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+#links ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 10px 0;
+}
+#links ul li a span {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    line-height: 150px;
+}
+#icon-1 {
+    background-image: url();
+}
 
 footer {
     width: 100%;
