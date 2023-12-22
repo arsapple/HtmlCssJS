@@ -72,13 +72,13 @@ nav {
     line-height: 150px;
 }
 #icon-1 {
-    background-image: url(/images/icon-1.jpg);
+    background-image: url(images/icon-1.jpg);
 }
 #icon-2 {
-    background-image: url(/images/icon-2.jpg);
+    background-image: url(images/icon-2.jpg);
 }
 #icon-3 {
-    background-image: url(/images/icon-3.jpg);
+    background-image: url(images/icon-3.jpg);
 }
 #links ul li a p {
     margin-top: 15px;
