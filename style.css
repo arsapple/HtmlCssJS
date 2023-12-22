@@ -34,6 +34,7 @@ nav {
 #content {
     width: 100%;
     height: 300px;
+    margin-top: 20px;
 }
 #tabMenu {
     float: left;
@@ -45,6 +46,7 @@ nav {
     float: right;
     width: 600px;
     height: 100%;
+    margin-top: 15px;
 }
 #links ul {
     list-style: none;
@@ -57,6 +59,9 @@ nav {
     text-align: center;
     margin: 10px 0;
 }
+#links ul li a {
+    text-decoration: none;
+}
 #links ul li a span {
     display: block;
     margin: 0 auto;
@@ -67,9 +72,19 @@ nav {
     line-height: 150px;
 }
 #icon-1 {
-    background-image: url();
+    background-image: url(/images/icon-1.jpg);
 }
-
+#icon-2 {
+    background-image: url(/images/icon-2.jpg);
+}
+#icon-3 {
+    background-image: url(/images/icon-3.jpg);
+}
+#links ul li a p {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #666;
+}
 footer {
     width: 100%;
     height: 100px;
